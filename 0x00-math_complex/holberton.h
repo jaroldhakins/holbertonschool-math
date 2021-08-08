@@ -1,5 +1,6 @@
 #ifndef COMPLEX
 #define COMPLEX
+#define PI 3.14159265
 #include <stdio.h>
 /**
  * struct complex - is a struct
@@ -14,5 +15,8 @@ typedef struct complex
 } complex;
 
 void display_complex_number(complex c);
+complex conjugate(complex c);
+double modulus(complex c);
+double argument(complex c);
 
 #endif
