@@ -18,6 +18,6 @@ void division(complex c1, complex c2, complex *c3)
 	potim = c2.im * c2.im;
 	pot = potre + potim;
 	c3->re = mulre / pot;
-	mulim = (c1.re * c2.im * - 1) + (c1.im * c2.re);
+	mulim = (c1.re * c2.im * -1) + (c1.im * c2.re);
 	c3->im = mulim / pot;
 }
